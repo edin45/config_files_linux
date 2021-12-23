@@ -1,0 +1,7 @@
+xbindkeys &
+setxkbmap de &
+picom --config ~/.config/picom.conf &
+plank &
+nitrogen --restore &
+~/.config/polybar/launch.sh --panels &
+sh caps-lock-to-shift.sh

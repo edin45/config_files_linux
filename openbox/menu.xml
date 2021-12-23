@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://openbox.org/">
+  <menu id="root-menu" label="Applications">
+    <item label="File Manager" icon="/home/edin/.config/obmenu-generator/icons/3b0f87ec1292fdc2613e6151339254e1.png"><action name="Execute"><command><![CDATA[xdg-open .]]></command></action></item>
+    <item label="Terminal" icon="/home/edin/.config/obmenu-generator/icons/3f43f2f594c7899381888da0e6ba8049.png"><action name="Execute"><command><![CDATA[xterm]]></command></action></item>
+    <item label="Web Browser" icon="/home/edin/.config/obmenu-generator/icons/0fd14be8770af75716427df2c3a3194a.png"><action name="Execute"><command><![CDATA[xdg-open http://]]></command></action></item>
+    <item label="Run command" icon="/home/edin/.config/obmenu-generator/icons/9af52c5d04eba4e9be770dcee42509a4.png"><action name="Execute"><command><![CDATA[gmrun]]></command></action></item>
+  <separator label="Categories"/>
+  <menu id="0.980884328558208" icon="/home/edin/.config/obmenu-generator/icons/4db1e293af6e0a8cfc9deef76944e61a.png" label="Accessories">
+    <item label="Ark" icon="/home/edin/.config/obmenu-generator/icons/2525b09840e03e13742ca7887b9ac094.png"><action name="Execute"><command><![CDATA[ark]]></command></action></item>
+    <item label="Bulk Rename" icon="/home/edin/.config/obmenu-generator/icons/c2c47267f18c412a241b1b25181e8986.png"><action name="Execute"><command><![CDATA[thunar --bulk-rename]]></command></action></item>
+    <item label="Emoji Selector" icon="/home/edin/.config/obmenu-generator/icons/3c8a108937f92dc8545546df7d1689d3.png"><action name="Execute"><command><![CDATA[ibus-ui-emojier-plasma]]></command></action></item>
+    <item label="Kate" icon="/home/edin/.config/obmenu-generator/icons/54ad5f75b5c708c36580af1ead344b8d.png"><action name="Execute"><command><![CDATA[kate -b]]></command></action></item>
+    <item label="KCalc" icon="/home/edin/.config/obmenu-generator/icons/64fca6256a41dd077d6c2d970e88a5dc.png"><action name="Execute"><command><![CDATA[kcalc]]></command></action></item>
+    <item label="KFind" icon="/home/edin/.config/obmenu-generator/icons/e81498959cb0937b218725f8d4ef0ae8.png"><action name="Execute"><command><![CDATA[kfind]]></command></action></item>
+    <item label="Klipper" icon="/home/edin/.config/obmenu-generator/icons/6d294e351cbdc9e470b519196cee185f.png"><action name="Execute"><command><![CDATA[klipper]]></command></action></item>
+    <item label="KMag" icon="/home/edin/.config/obmenu-generator/icons/764a5357f2a404e0b6c3c07cf8237a61.png"><action name="Execute"><command><![CDATA[kmag]]></command></action></item>
+    <item label="KMouseTool" icon="/home/edin/.config/obmenu-generator/icons/65ba77d1def994613db9f186ed8fea72.png"><action name="Execute"><command><![CDATA[kmousetool -qwindowtitle]]></command></action></item>
+    <item label="KMouth" icon="/home/edin/.config/obmenu-generator/icons/4855df1c474033d8d70f3f946995022e.png"><action name="Execute"><command><![CDATA[kmouth]]></command></action></item>
+    <item label="KNotes" icon="/home/edin/.config/obmenu-generator/icons/5c32f4867a238a23c1f8c2bdefc74a65.png"><action name="Execute"><command><![CDATA[knotes]]></command></action></item>
+    <item label="KWrite" icon="/home/edin/.config/obmenu-generator/icons/23f5e6122e66fa0f5b8ec1933749700f.png"><action name="Execute"><command><![CDATA[kwrite]]></command></action></item>
+    <item label="nitrogen" icon="/home/edin/.config/obmenu-generator/icons/dc07ea0146d8fe8408ee1b3a35dded2d.png"><action name="Execute"><command><![CDATA[nitrogen]]></command></action></item>
+    <item label="picom"><action name="Execute"><command><![CDATA[picom]]></command></action></item>
+    <item label="Plank" icon="/home/edin/.config/obmenu-generator/icons/abef1dd06c2ce0a4d83c4698363b1c77.png"><action name="Execute"><command><![CDATA[plank]]></command></action></item>
+    <item label="Spectacle" icon="/home/edin/.config/obmenu-generator/icons/927c2f94cf5c538daeda7fa4908bb91a.png"><action name="Execute"><command><![CDATA[/usr/bin/spectacle]]></command></action></item>
+    <item label="Sweeper" icon="/home/edin/.config/obmenu-generator/icons/d9816e3bc30032aa3e9168b7d3fa4ed3.png"><action name="Execute"><command><![CDATA[sweeper]]></command></action></item>
+    <item label="Thunar File Manager" icon="/home/edin/.config/obmenu-generator/icons/c2c47267f18c412a241b1b25181e8986.png"><action name="Execute"><command><![CDATA[thunar]]></command></action></item>
+    <item label="Vim" icon="/home/edin/.config/obmenu-generator/icons/9f954f62b318e85d9716dec7d44b1f3b.png"><action name="Execute"><command><![CDATA[xterm -e 'vim']]></command></action></item>
+  </menu>
+  <menu id="0.286269848558248" icon="/home/edin/.config/obmenu-generator/icons/c25d9de4dae2862cb65201f44ef271ab.png" label="Graphics">
+    <item label="GNU Image Manipulation Program" icon="/home/edin/.config/obmenu-generator/icons/64290dde69ee4b34d5e9c54d6750ab11.png"><action name="Execute"><command><![CDATA[gimp-2.10]]></command></action></item>
+    <item label="Gwenview" icon="/home/edin/.config/obmenu-generator/icons/818a11a61b2b940cd626139c470d2dfd.png"><action name="Execute"><command><![CDATA[gwenview]]></command></action></item>
+    <item label="ImageMagick (color depth=q16)" icon="/home/edin/.config/obmenu-generator/icons/9963196bc1bff355f1685e126b67028f.png"><action name="Execute"><command><![CDATA[/usr/bin/display-im6.q16 -nostdin]]></command></action></item>
+    <item label="Kontrast" icon="/home/edin/.config/obmenu-generator/icons/145633e6811d63eb9759060529b2597a.png"><action name="Execute"><command><![CDATA[kontrast]]></command></action></item>
+    <item label="LibreOffice Draw" icon="/home/edin/.config/obmenu-generator/icons/bcac14e74d6eff0d51e3666a554fe607.png"><action name="Execute"><command><![CDATA[libreoffice --draw]]></command></action></item>
+    <item label="Okular" icon="/home/edin/.config/obmenu-generator/icons/263c1225e5a9f8e1d653632cc42c299d.png"><action name="Execute"><command><![CDATA[okular]]></command></action></item>
+  </menu>
+  <menu id="0.730375414985371" icon="/home/edin/.config/obmenu-generator/icons/cd0181df09a6e8202b924b4281308e62.png" label="Multimedia">
+    <item label="Dragon Player" icon="/home/edin/.config/obmenu-generator/icons/ccaf45cae979bd47a036b5995448c00a.png"><action name="Execute"><command><![CDATA[dragon]]></command></action></item>
+    <item label="JuK" icon="/home/edin/.config/obmenu-generator/icons/569c97c29ab31ee575c4550b3b0de5e0.png"><action name="Execute"><command><![CDATA[juk]]></command></action></item>
+    <item label="K3b" icon="/home/edin/.config/obmenu-generator/icons/a46dbf02f7c3666112ae0be18b0174a0.png"><action name="Execute"><command><![CDATA[k3b]]></command></action></item>
+  </menu>
+  <menu id="0.195130517330604" icon="/home/edin/.config/obmenu-generator/icons/96cc6d91edf2df258c5bd5120a475d01.png" label="Network">
+    <item label="Akregator" icon="/home/edin/.config/obmenu-generator/icons/a58b414d708aa5aa186bc4fe4bbba8df.png"><action name="Execute"><command><![CDATA[akregator]]></command></action></item>
+    <item label="Contact Print Theme Editor" icon="/home/edin/.config/obmenu-generator/icons/adcf48a9c2295ac789dcd0d0bcd6578d.png"><action name="Execute"><command><![CDATA[contactprintthemeeditor]]></command></action></item>
+    <item label="Contact Theme Editor" icon="/home/edin/.config/obmenu-generator/icons/adcf48a9c2295ac789dcd0d0bcd6578d.png"><action name="Execute"><command><![CDATA[contactthemeeditor]]></command></action></item>
+    <item label="Firefox ESR" icon="/home/edin/.config/obmenu-generator/icons/1d8c66813d50ea60416d05c88622b1f0.png"><action name="Execute"><command><![CDATA[/usr/lib/firefox-esr/firefox-esr]]></command></action></item>
+    <item label="KDE Connect Indicator" icon="/home/edin/.config/obmenu-generator/icons/7bf93e154d93f82191015eee70605809.png"><action name="Execute"><command><![CDATA[kdeconnect-indicator]]></command></action></item>
+    <item label="KDE Connect SMS" icon="/home/edin/.config/obmenu-generator/icons/7bf93e154d93f82191015eee70605809.png"><action name="Execute"><command><![CDATA[kdeconnect-sms]]></command></action></item>
+    <item label="KDE Connect" icon="/home/edin/.config/obmenu-generator/icons/7bf93e154d93f82191015eee70605809.png"><action name="Execute"><command><![CDATA[kdeconnect-app]]></command></action></item>
+    <item label="KMail Header Theme Editor" icon="/home/edin/.config/obmenu-generator/icons/5d0134f98fd6d81180c5208a5f751512.png"><action name="Execute"><command><![CDATA[headerthemeeditor]]></command></action></item>
+    <item label="KMail" icon="/home/edin/.config/obmenu-generator/icons/5d0134f98fd6d81180c5208a5f751512.png"><action name="Execute"><command><![CDATA[kmail -qwindowtitle]]></command></action></item>
+    <item label="Konqueror" icon="/home/edin/.config/obmenu-generator/icons/c027ff6cd70dbcf461903ccf1a121899.png"><action name="Execute"><command><![CDATA[konqueror]]></command></action></item>
+    <item label="KTnef" icon="/home/edin/.config/obmenu-generator/icons/59a046de9c969a248328570bb6bff25b.png"><action name="Execute"><command><![CDATA[ktnef]]></command></action></item>
+    <item label="Open on connected device via KDE Connect" icon="/home/edin/.config/obmenu-generator/icons/7bf93e154d93f82191015eee70605809.png"><action name="Execute"><command><![CDATA[kdeconnect-handler --open]]></command></action></item>
+    <item label="PIM Data Exporter" icon="/home/edin/.config/obmenu-generator/icons/f9f31dca3ba672d41436abc207292ff6.png"><action name="Execute"><command><![CDATA[pimdataexporter]]></command></action></item>
+    <item label="Sieve Editor" icon="/home/edin/.config/obmenu-generator/icons/5d0134f98fd6d81180c5208a5f751512.png"><action name="Execute"><command><![CDATA[sieveeditor]]></command></action></item>
+  </menu>
+  <menu id="0.76568158100152" icon="/home/edin/.config/obmenu-generator/icons/45c32e1bbe1e27c933f3da96ddadee79.png" label="Office">
+    <item label="Contact Print Theme Editor" icon="/home/edin/.config/obmenu-generator/icons/adcf48a9c2295ac789dcd0d0bcd6578d.png"><action name="Execute"><command><![CDATA[contactprintthemeeditor]]></command></action></item>
+    <item label="Contact Theme Editor" icon="/home/edin/.config/obmenu-generator/icons/adcf48a9c2295ac789dcd0d0bcd6578d.png"><action name="Execute"><command><![CDATA[contactthemeeditor]]></command></action></item>
+    <item label="KAddressBook" icon="/home/edin/.config/obmenu-generator/icons/adcf48a9c2295ac789dcd0d0bcd6578d.png"><action name="Execute"><command><![CDATA[kaddressbook]]></command></action></item>
+    <item label="KMail Header Theme Editor" icon="/home/edin/.config/obmenu-generator/icons/5d0134f98fd6d81180c5208a5f751512.png"><action name="Execute"><command><![CDATA[headerthemeeditor]]></command></action></item>
+    <item label="KMail" icon="/home/edin/.config/obmenu-generator/icons/5d0134f98fd6d81180c5208a5f751512.png"><action name="Execute"><command><![CDATA[kmail -qwindowtitle]]></command></action></item>
+    <item label="KOrganizer" icon="/home/edin/.config/obmenu-generator/icons/f0679dcba1b5524ce6d3ba9558ec4cf8.png"><action name="Execute"><command><![CDATA[korganizer]]></command></action></item>
+    <item label="KTnef" icon="/home/edin/.config/obmenu-generator/icons/59a046de9c969a248328570bb6bff25b.png"><action name="Execute"><command><![CDATA[ktnef]]></command></action></item>
+    <item label="LibreOffice Calc" icon="/home/edin/.config/obmenu-generator/icons/8e09012845644d93cbe7d4c5dc837c14.png"><action name="Execute"><command><![CDATA[libreoffice --calc]]></command></action></item>
+    <item label="LibreOffice Draw" icon="/home/edin/.config/obmenu-generator/icons/bcac14e74d6eff0d51e3666a554fe607.png"><action name="Execute"><command><![CDATA[libreoffice --draw]]></command></action></item>
+    <item label="LibreOffice Impress" icon="/home/edin/.config/obmenu-generator/icons/73b9b9624174a5e95d47912c92f8328f.png"><action name="Execute"><command><![CDATA[libreoffice --impress]]></command></action></item>
+    <item label="LibreOffice Math" icon="/home/edin/.config/obmenu-generator/icons/e8fdd5d15425def4452734833c5bc6e7.png"><action name="Execute"><command><![CDATA[libreoffice --math]]></command></action></item>
+    <item label="LibreOffice Writer" icon="/home/edin/.config/obmenu-generator/icons/45966af9c785cf0e5b27037bc170f19d.png"><action name="Execute"><command><![CDATA[libreoffice --writer]]></command></action></item>
+    <item label="LibreOffice" icon="/home/edin/.config/obmenu-generator/icons/38dee78243e33dd61a1fdad11ebe0152.png"><action name="Execute"><command><![CDATA[libreoffice]]></command></action></item>
+    <item label="Okular" icon="/home/edin/.config/obmenu-generator/icons/263c1225e5a9f8e1d653632cc42c299d.png"><action name="Execute"><command><![CDATA[okular]]></command></action></item>
+    <item label="Sieve Editor" icon="/home/edin/.config/obmenu-generator/icons/5d0134f98fd6d81180c5208a5f751512.png"><action name="Execute"><command><![CDATA[sieveeditor]]></command></action></item>
+  </menu>
+  <menu id="0.969969792742617" icon="/home/edin/.config/obmenu-generator/icons/2c2b99feb57157cdc65d7c1161951273.png" label="Other">
+    <item label="Help" icon="/home/edin/.config/obmenu-generator/icons/ce83e9e162b50cdf35899f5a2fb94b3b.png"><action name="Execute"><command><![CDATA[khelpcenter]]></command></action></item>
+  </menu>
+  <menu id="0.39749628854619" icon="/home/edin/.config/obmenu-generator/icons/f3696f59388a5c36c99c8356cd61c752.png" label="Settings">
+    <item label="Apper" icon="/home/edin/.config/obmenu-generator/icons/d2b499724a5095090423f9d20706386d.png"><action name="Execute"><command><![CDATA[apper]]></command></action></item>
+    <item label="File Manager Settings" icon="/home/edin/.config/obmenu-generator/icons/c2c47267f18c412a241b1b25181e8986.png"><action name="Execute"><command><![CDATA[thunar-settings]]></command></action></item>
+    <item label="KDE Connect Settings" icon="/home/edin/.config/obmenu-generator/icons/7bf93e154d93f82191015eee70605809.png"><action name="Execute"><command><![CDATA[kdeconnect-settings]]></command></action></item>
+    <item label="KDE System Settings" icon="/home/edin/.config/obmenu-generator/icons/34fc24a83e50fd192e4b0cc770de782d.png"><action name="Execute"><command><![CDATA[systemsettings5]]></command></action></item>
+    <item label="Openbox Configuration Manager" icon="/home/edin/.config/obmenu-generator/icons/61f3de6fd06f9847e869878302ba1980.png"><action name="Execute"><command><![CDATA[obconf]]></command></action></item>
+    <item label="Removable Drives and Media" icon="/home/edin/.config/obmenu-generator/icons/1035f7ea1bf18306b2573c19ecaaa4ac.png"><action name="Execute"><command><![CDATA[thunar-volman-settings]]></command></action></item>
+    <item label="System Settings" icon="/home/edin/.config/obmenu-generator/icons/34fc24a83e50fd192e4b0cc770de782d.png"><action name="Execute"><command><![CDATA[systemsettings5]]></command></action></item>
+  </menu>
+  <menu id="0.056285996263874" icon="/home/edin/.config/obmenu-generator/icons/0f6daeed24502790bd8b4ccfc79e2f09.png" label="System">
+    <item label="Apper" icon="/home/edin/.config/obmenu-generator/icons/d2b499724a5095090423f9d20706386d.png"><action name="Execute"><command><![CDATA[apper]]></command></action></item>
+    <item label="Bulk Rename" icon="/home/edin/.config/obmenu-generator/icons/c2c47267f18c412a241b1b25181e8986.png"><action name="Execute"><command><![CDATA[thunar --bulk-rename]]></command></action></item>
+    <item label="Discover" icon="/home/edin/.config/obmenu-generator/icons/4667b9cbe7584a56eaa242c24818087b.png"><action name="Execute"><command><![CDATA[plasma-discover]]></command></action></item>
+    <item label="Dolphin" icon="/home/edin/.config/obmenu-generator/icons/3b0f87ec1292fdc2613e6151339254e1.png"><action name="Execute"><command><![CDATA[dolphin]]></command></action></item>
+    <item label="Info Center" icon="/home/edin/.config/obmenu-generator/icons/ec4ee8cc72b1c8480bfd6c76f9af992f.png"><action name="Execute"><command><![CDATA[kinfocenter]]></command></action></item>
+    <item label="KDE Partition Manager" icon="/home/edin/.config/obmenu-generator/icons/7516a217758a0e26e4d81bee4880e8ec.png"><action name="Execute"><command><![CDATA[partitionmanager]]></command></action></item>
+    <item label="kitty" icon="/home/edin/.config/obmenu-generator/icons/708bcefe28d46eb0a443bb64cdb80c54.png"><action name="Execute"><command><![CDATA[kitty]]></command></action></item>
+    <item label="Konsole" icon="/home/edin/.config/obmenu-generator/icons/3f43f2f594c7899381888da0e6ba8049.png"><action name="Execute"><command><![CDATA[konsole]]></command></action></item>
+    <item label="KSysGuard" icon="/home/edin/.config/obmenu-generator/icons/ea5a9390e70866a8859cb167626f0796.png"><action name="Execute"><command><![CDATA[ksysguard]]></command></action></item>
+    <item label="KWalletManager" icon="/home/edin/.config/obmenu-generator/icons/aa89aa3d5c48bd5e8e931135d9505b21.png"><action name="Execute"><command><![CDATA[kwalletmanager5]]></command></action></item>
+    <item label="Termit" icon="/home/edin/.config/obmenu-generator/icons/3f43f2f594c7899381888da0e6ba8049.png"><action name="Execute"><command><![CDATA[termit]]></command></action></item>
+    <item label="Thunar File Manager" icon="/home/edin/.config/obmenu-generator/icons/c2c47267f18c412a241b1b25181e8986.png"><action name="Execute"><command><![CDATA[thunar]]></command></action></item>
+  </menu>
+  <separator/>
+  <menu id="0.666203460181723" icon="/home/edin/.config/obmenu-generator/icons/f855d8cad08e34fbdb78a93e63497827.png" label="Advanced Settings">
+    <item label="Conky RC" icon="/home/edin/.config/obmenu-generator/icons/5cdcfa7d1b65060af71c177d134eff9f.png"><action name="Execute"><command><![CDATA[geany ~/.conkyrc]]></command></action></item>
+    <item label="Tint2 Panel" icon="/home/edin/.config/obmenu-generator/icons/5cdcfa7d1b65060af71c177d134eff9f.png"><action name="Execute"><command><![CDATA[geany ~/.config/tint2/tint2rc]]></command></action></item>
+  <menu id="0.655087678752125" icon="/home/edin/.config/obmenu-generator/icons/23f5e6122e66fa0f5b8ec1933749700f.png" label="Obmenu-Generator">
+    <item label="Menu Schema" icon="/home/edin/.config/obmenu-generator/icons/5cdcfa7d1b65060af71c177d134eff9f.png"><action name="Execute"><command><![CDATA[geany ~/.config/obmenu-generator/schema.pl]]></command></action></item>
+    <item label="Menu Config" icon="/home/edin/.config/obmenu-generator/icons/5cdcfa7d1b65060af71c177d134eff9f.png"><action name="Execute"><command><![CDATA[geany ~/.config/obmenu-generator/config.pl]]></command></action></item>
+  <separator/>
+    <item label="Generate a static menu" icon="/home/edin/.config/obmenu-generator/icons/23f5e6122e66fa0f5b8ec1933749700f.png"><action name="Execute"><command><![CDATA[obmenu-generator -s -c]]></command></action></item>
+    <item label="Generate a static menu with icons" icon="/home/edin/.config/obmenu-generator/icons/23f5e6122e66fa0f5b8ec1933749700f.png"><action name="Execute"><command><![CDATA[obmenu-generator -s -i -c]]></command></action></item>
+  <separator/>
+    <item label="Generate a dynamic menu" icon="/home/edin/.config/obmenu-generator/icons/23f5e6122e66fa0f5b8ec1933749700f.png"><action name="Execute"><command><![CDATA[obmenu-generator -p]]></command></action></item>
+    <item label="Generate a dynamic menu with icons" icon="/home/edin/.config/obmenu-generator/icons/23f5e6122e66fa0f5b8ec1933749700f.png"><action name="Execute"><command><![CDATA[obmenu-generator -p -i]]></command></action></item>
+  <separator/>
+    <item label="Refresh cache" icon="/home/edin/.config/obmenu-generator/icons/78f88727d172b40bbdb10537b0e12bf0.png"><action name="Execute"><command><![CDATA[obmenu-generator -d]]></command></action></item>
+  </menu>
+  <menu id="0.94538683166483" icon="/home/edin/.config/obmenu-generator/icons/cbd33e85d4e0834359519a4e282b2aeb.png" label="Openbox">
+    <item label="Openbox Autostart" icon="/home/edin/.config/obmenu-generator/icons/5cdcfa7d1b65060af71c177d134eff9f.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/autostart]]></command></action></item>
+    <item label="Openbox RC" icon="/home/edin/.config/obmenu-generator/icons/5cdcfa7d1b65060af71c177d134eff9f.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/rc.xml]]></command></action></item>
+    <item label="Openbox Menu" icon="/home/edin/.config/obmenu-generator/icons/5cdcfa7d1b65060af71c177d134eff9f.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/menu.xml]]></command></action></item>
+    <item label="Reconfigure Openbox" icon="/home/edin/.config/obmenu-generator/icons/cbd33e85d4e0834359519a4e282b2aeb.png"><action name="Execute"><command><![CDATA[openbox --reconfigure]]></command></action></item>
+  </menu>
+  </menu>
+  <separator/>
+    <item label="Lock" icon="/home/edin/.config/obmenu-generator/icons/7c532d9d3435ff43a465704d6d75d607.png"><action name="Execute"><command><![CDATA[xscreensaver-command -lock]]></command></action></item>
+    <item label="Exit" icon="/home/edin/.config/obmenu-generator/icons/f797d051fc45bf2ee3f38c146cc36d68.png"><action name="Exit"/></item>
+  </menu>
+</openbox_menu>
